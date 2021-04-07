@@ -46,7 +46,7 @@ function renderModal() {
                             <p>${portfolio.desc}</p>
                             <ul class="list-inline">
                                 <li>${Date()}</li>
-                                <li>Client: Coding Academy</li>
+                                <li>Project link:${portfolio.projUrl}</li>
                                 <li>Category:Game Illustration</li>
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">

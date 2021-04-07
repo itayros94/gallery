@@ -9,6 +9,7 @@ var gProtfolios = [{
     url: 'projs/itay',
     intro: 'Nice Game!',
     imgUrl: 'img/proj-imgs/mines.png',
+    projUrl: '<a href="projects/mine-sweepers/index.html"> Click Here For The Project! </a>',
     publishedAt: 2309472008,
     labels: ["Matrix", "keyboard events"]
 }, {
@@ -20,6 +21,7 @@ var gProtfolios = [{
     intro: 'Nice Game!',
     url: 'projs/itay',
     imgUrl: 'img/proj-imgs/tuch.jpeg',
+    projUrl: '<a href="projects/touch-nums/index.html"> Click Here For The Project! </a>',
     publishedAt: 23498023894,
     labels: ["Matrix", "keyboard events"],
 }, {
@@ -30,7 +32,8 @@ var gProtfolios = [{
     desc: 'lorem impsum lorem ipsum',
     url: 'projs/itay',
     intro: 'Nice Game!',
-    imgUrl: 'img/proj-imgs/books3.png',
+    imgUrl: 'img/proj-imgs/books5.jpeg',
+    projUrl: '<a href="projects/book-shop/index.html"> Click Here For The Project! </a>',
     publishedAt: 2340928340,
     labels: ["Matrix", "keyboard events"]
 
@@ -43,6 +46,7 @@ var gProtfolios = [{
     url: 'projs/itay',
     intro: 'Nice Game!',
     imgUrl: 'img/proj-imgs/todo.jpeg',
+    projUrl: '<a href="projects/to-does/index.html"> Click Here For The Project! </a>',
     publishedAt: 2340928340,
     labels: ["Matrix", "keyboard events"]
 
@@ -55,6 +59,7 @@ var gProtfolios = [{
     url: 'projs/itay',
     intro: 'Nice Game!',
     imgUrl: 'img/proj-imgs/packman.jpeg',
+    projUrl: '<a href="projects/packman/index.html"> Click Here For The Project! </a>',
     publishedAt: 2340928340,
     labels: ["Matrix", "keyboard events"]
 
@@ -67,6 +72,7 @@ var gProtfolios = [{
     url: 'projs/itay',
     intro: 'Nice Game!',
     imgUrl: 'img/proj-imgs/ballboard.jpeg',
+    projUrl: '<a href="projects/ball-board/index.html"> Click Here For The Project! </a>',
     publishedAt: 2340928340,
     labels: ["Matrix", "keyboard events"]
 

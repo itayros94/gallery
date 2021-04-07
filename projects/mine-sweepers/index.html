@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mine-Sweepers!</title>
+</head>
+
+<body onload="init()">
+    <div class="container">
+        <h1>Mine Sweepers!</h1>
+        <div class="hint-container">
+            <div class="flagsNumber"></div>
+            <span class="lives"></span>
+            <span class="hint"></span>
+        </div>
+        <div class="timer">TIMER</div>
+        <div class="game-countier">
+            <div class="buttons-cotainer"><button onclick="hard()">hard</button><button onclick="medium()">medium</button><button onclick="easy()">easy</button></div>
+            <div onclick="init()" class="smiley"></div>
+            <div class="table"> </div>
+        </div>
+    </div>
+    <script src="render.js"></script>
+    <script src="utils.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

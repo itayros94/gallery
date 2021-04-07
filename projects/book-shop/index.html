@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Bookshop - itay rosental</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body onload="init()">
+    <h1>Book Shop!</h1>
+
+    <div class="books"></div>
+    <div class="table-container">
+        <button onclick="onAddBook()" class="creat-book">Create new book</button>
+        <section class="todo-sort">
+            <h3>Sort By</h3>
+            <select name="todoSort" onchange="onSetSort(this.value)">
+                    <option value="text">Text</option>
+                    <option value="price">Price</option>
+                    <option value="rate">Rate</option>
+                </select>
+        </section>
+
+        <table class="books-table">
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+        </table>
+
+        <div class="modal">
+            <h2>I Am Modal!</h2>
+            <div class="img-modal">
+
+
+            </div>
+            <div class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos facere voluptatibus assumenda dolor eius sapiente ducimus doloremque qui neque commodi perferendis voluptatum facilis iusto recusandae obcaecati incidunt, harum quibusdam! Quis.</div>
+        </div>
+    </div>
+
+
+    <script src="./js/bookshop-storge.js"></script>
+    <script src="./js/bookshop-service.js"></script>
+    <script src="./js/bookshop-controller.js"></script>
+
+
+</body>
+
+</html>

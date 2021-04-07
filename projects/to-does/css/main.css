@@ -1,0 +1,40 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.todo-list {
+    background-color: yellowgreen;
+    padding: 10px;
+}
+
+.btn-remove {
+    border: 0;
+    border-radius: 50%;
+}
+
+.btn-remove:hover {
+    background-color: lightsalmon;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.add-todo {
+    background-color: beige;
+    padding: 10px;
+}
+
+.todo-filter {
+    background-color: burlywood;
+    padding: 10px;
+}
+.todo-stat {
+    background-color: yellow;
+    padding: 10px;
+}

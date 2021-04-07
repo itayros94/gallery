@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-size: 20px;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+}
+
+h1 {
+    margin: 50px;
+    font-size: 80px;
+    background-color: rgb(184, 159, 159);
+}
+
+body {
+    background-color: rgb(116, 116, 103);
+    margin: auto;
+    text-align: center;
+    margin: 3px;
+    font-style: italic;
+}
+
+table {
+    border: 3px solid rgb(141, 117, 117);
+    border-collapse: collapse;
+}
+
+td {
+    border: 3px solid black;
+}
+
+td :hover {
+    background-color: pink;
+    cursor: pointer;
+}
+
+button {
+    width: 80px;
+    height: 70px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.read-btn {
+    background-color: rgb(99, 99, 187);
+}
+
+.update-btn {
+    background-color: rgb(187, 147, 74);
+}
+
+.delete-btn {
+    background-color: rgb(180, 56, 56);
+}
+
+.creat-book {
+    width: 150px;
+    height: 70px;
+    margin: auto;
+    background-color: rgb(184, 192, 65);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.modal {
+    visibility: hidden;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(195, 163, 92);
+    margin-top: 20px;
+}
+
+.lorem {
+    visibility: hidden
+}

@@ -1,0 +1,92 @@
+    .table {
+        margin: 0 auto;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    h1 {
+        color: rgb(228, 228, 228);
+        font-size: 100px;
+    }
+    
+    body {
+        text-align: center;
+        margin: 0 auto;
+        cursor: pointer;
+        background-color: darkgreen;
+        /* background-image: url("night.jpeg"); */
+        font-family: Courier, monospace;
+    }
+    
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        font-size: 20px;
+    }
+    
+    td:hover {
+        background-color: #ddd;
+        cursor: pointer;
+    }
+    
+    button {
+        margin-top: 100px;
+        margin: 5px;
+        text-align: center;
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+        font-family: Courier, monospace;
+    }
+    
+    button:hover {
+        background-color: rgb(84, 190, 209);
+        cursor: pointer;
+    }
+    
+    .newGame {
+        display: none;
+    }
+    
+    .game-countier {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .smiley {
+        font-size: 60px;
+        cursor: pointer;
+    }
+    
+    .lives {
+        font-size: 60px;
+        width: 400px;
+        padding: 20px;
+    }
+    
+    .numbers {
+        background-color: white;
+    }
+    
+    .timer {
+        font-size: 70px;
+        margin-bottom: 20px;
+        color: whitesmoke;
+    }
+    
+    .hint {
+        font-size: 50px;
+    }
+    
+    .hint-container {
+        margin: 20px 0;
+    }
+    
+    .flagsNumber {
+        font-size: 50px;
+        margin: 20px;
+        color: antiquewhite;
+    }

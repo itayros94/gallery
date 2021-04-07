@@ -1,0 +1,65 @@
+.buttons-container {
+    text-align: center;
+    margin: 30px;
+}
+
+button {
+    background-color: rgb(221, 208, 206);
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+}
+
+button:hover {
+    background-color: rgb(72, 107, 223);
+}
+
+body {
+    text-align: center;
+    background-color: rgb(56, 111, 143);
+    background-image: url("brd.jpg");
+}
+
+.restart {
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    border: 1px solid #ccc;
+    background-color: snow;
+    text-align: center;
+    padding: 10px;
+}
+
+td:hover {
+    background-color: #ffffff;
+    opacity: 0.3;
+}
+
+.board {
+    margin: 20px;
+}
+
+.timer {
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    background-color: snow;
+    opacity: 0.8;
+}
+
+h1 {
+    background-color: white;
+    opacity: 0.8;
+}
+
+.win {
+    background-color: rgb(187, 207, 175);
+    opacity: 0.7;
+}
